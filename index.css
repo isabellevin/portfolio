@@ -41,7 +41,8 @@ header                  {color:#d5e1e8;
 
 nav, nav.expanded                 {width:5em;
                      margin-top:30%;
-                     margin-left:40%;}
+                     margin-left:50%;
+                     transform:translateX(-50%);}
 
 nav ul              {margin-top:1em;}
 
@@ -69,5 +70,9 @@ nav ul              {margin-top:1em;}
 
 @media (min-width:641px){
     nav              {display:none;}
+}
+
+@media (max-width:400px){
+    h1,h2          {font-size:1.5em;}
 }
 
