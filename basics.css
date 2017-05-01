@@ -52,10 +52,13 @@ body {
   line-height: 3.5rem;
   color:#9fbccc;
   cursor:pointer;
+  padding:0;
+  
 }
 
 .project-page .close i {
     color:#9fbccc;
+    display:block;
 }
 
 .project-page .close:hover    {
