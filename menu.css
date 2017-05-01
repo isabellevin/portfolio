@@ -28,7 +28,7 @@ nav                 {margin-right:0.5rem;
 
 ul                  {list-style:none;
                      line-height:2em;}
-nav ul              { text-align:right;}
+nav ul              {text-align:right;}
 
 .expanded {
     margin: 0;

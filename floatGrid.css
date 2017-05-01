@@ -191,11 +191,6 @@ background: orange;
 
 
 
-
-
-
-
-
 .project                { 
     width: calc(80% / 3 );
     margin:1rem 0;
@@ -230,6 +225,13 @@ background: orange;
     .project-page .container {
         flex-direction: column;
     }
+}
+
+@media (max-width: 400px){
+    .name              {opacity:1;
+                        transform:none;}
+    .container          {margin-left:2rem;
+                         margin-right:2rem;}
 }
 
 
