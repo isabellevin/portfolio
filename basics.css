@@ -90,3 +90,8 @@ header a                {text-decoration:none;
 
 header a:hover          {text-decoration:none;
                          color:orange;}
+
+
+@media (max-width:400px){
+    .project-page .close     {border:none;}
+}
