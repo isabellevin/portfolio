@@ -8,6 +8,12 @@ h1      {color:#d5e1e8;
          width:1rem;
          float:left;}
 
+h1 a                {text-decoration:none;
+                         color:#d5e1e8;}
+
+h1 a:hover          {text-decoration:none;
+                         color:orange;}
+
 h2      {color:#d5e1e8;
          font-family:Apercu, Futura, "Helvetica Neue", Helvetica, sans-serif;
          font-size:2em;
@@ -16,6 +22,12 @@ h2      {color:#d5e1e8;
          text-align: right;
          margin-right:3rem;
          margin-top:3rem;}
+
+h2 a                {text-decoration:none;
+                         color:#d5e1e8;}
+
+h2 a:hover          {text-decoration:none;
+                         color:orange;}
 
 h3       {color:white;
          font-family:Apercu, Futura, "Helvetica Neue", Helvetica, sans-serif;
@@ -38,6 +50,8 @@ header                  {color:#d5e1e8;
                          font-weight: bold;
                          letter-spacing:0.15em;
                          margin-top:3rem;}
+
+li a                    {font-weight:bold;}
 
 nav, nav.expanded                 {width:5em;
                      margin-top:30%;
